@@ -1,0 +1,13 @@
+brain_health_monitor/
+├── frontend/               # Flutter project
+├── backend/                # Django backend
+├── .github/                # GitHub Actions workflows
+│   └── workflows/
+│       ├── ci.yml          # Continuous Integration workflow
+│       ├── build.yml       # Build workflow
+│       ├── publish.yml     # Publish workflow
+├── scripts/                # Helper scripts
+│   ├── init.sh             # Script to initialize the project
+│   ├── build_backend.sh    # Build backend
+│   ├── build_frontend.sh   # Build frontend
+│   └── publish.sh          # Publish app
